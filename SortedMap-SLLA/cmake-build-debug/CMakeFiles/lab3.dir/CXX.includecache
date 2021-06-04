@@ -1,0 +1,82 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/2/Faculty/sem 2/SDA/lab3/App.cpp
+tests/ExtendedTest.h
+D:/2/Faculty/sem 2/SDA/lab3/tests/ExtendedTest.h
+tests/ShortTest.h
+D:/2/Faculty/sem 2/SDA/lab3/tests/ShortTest.h
+SortedMap.h
+D:/2/Faculty/sem 2/SDA/lab3/SortedMap.h
+iostream
+-
+
+D:/2/Faculty/sem 2/SDA/lab3/SMIterator.cpp
+SMIterator.h
+D:/2/Faculty/sem 2/SDA/lab3/SMIterator.h
+SortedMap.h
+D:/2/Faculty/sem 2/SDA/lab3/SortedMap.h
+exception
+-
+iostream
+-
+
+D:/2/Faculty/sem 2/SDA/lab3/SMIterator.h
+SortedMap.h
+D:/2/Faculty/sem 2/SDA/lab3/SortedMap.h
+
+D:/2/Faculty/sem 2/SDA/lab3/SortedMap.cpp
+SMIterator.h
+D:/2/Faculty/sem 2/SDA/lab3/SMIterator.h
+SortedMap.h
+D:/2/Faculty/sem 2/SDA/lab3/SortedMap.h
+exception
+-
+iostream
+-
+
+D:/2/Faculty/sem 2/SDA/lab3/SortedMap.h
+utility
+-
+
+D:/2/Faculty/sem 2/SDA/lab3/tests/ExtendedTest.cpp
+exception
+-
+assert.h
+-
+algorithm
+-
+vector
+-
+iostream
+-
+../SortedMap.h
+D:/2/Faculty/sem 2/SDA/lab3/SortedMap.h
+../SMIterator.h
+D:/2/Faculty/sem 2/SDA/lab3/SMIterator.h
+ExtendedTest.h
+D:/2/Faculty/sem 2/SDA/lab3/tests/ExtendedTest.h
+
+D:/2/Faculty/sem 2/SDA/lab3/tests/ExtendedTest.h
+
+D:/2/Faculty/sem 2/SDA/lab3/tests/ShortTest.cpp
+assert.h
+-
+iostream
+-
+../SortedMap.h
+D:/2/Faculty/sem 2/SDA/lab3/SortedMap.h
+../SMIterator.h
+D:/2/Faculty/sem 2/SDA/lab3/SMIterator.h
+ShortTest.h
+D:/2/Faculty/sem 2/SDA/lab3/tests/ShortTest.h
+exception
+-
+
+D:/2/Faculty/sem 2/SDA/lab3/tests/ShortTest.h
+
