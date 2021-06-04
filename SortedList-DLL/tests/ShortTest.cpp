@@ -1,0 +1,56 @@
+#include <assert.h>
+
+#include<iostream>
+#include "ListIterator.h"
+#include "SortedIndexedList.h"
+
+using namespace std;
+
+bool relation1(TComp e1, TComp e2) {
+	if (e1 <= e2) {
+		return true;
+	}
+	else {
+		return false;
+	}
+}
+
+void testAll(){
+
+	SortedIndexedList list = SortedIndexedList(relation1);
+
+	assert(list.size() == 0);
+	assert(list.isEmpty());
+    list.add(1);
+    assert(list.size() == 1);
+    assert(!list.isEmpty());
+
+    ListIterator iterator = list.iterator();
+    assert(iterator.valid());
+    iterator.first();
+    assert(iterator.getCurrent() == 1);
+    iterator.next();
+    assert(!iterator.valid());
+    iterator.first();
+
+    assert(iterator.valid());
+    assert(list.search(1) == 0);
+    assert(list.remove(0) == 1);
+    assert(list.size() == 0);
+    assert(list.isEmpty());
+
+    SortedIndexedList anotherList = SortedIndexedList(relation1);
+    anotherList.add(1);
+    anotherList.add(2);
+    anotherList.add(3);
+
+    ListIterator anotherIterator = anotherList.iterator();
+    anotherIterator.first();
+    assert(anotherIterator.remove() == 1);
+    assert(anotherIterator.getCurrent() == 2);
+    anotherIterator.last();
+    assert(anotherIterator.remove() == 3);
+    assert(anotherList.size() == 1);
+    cout << "New Iterator Remove is Tested\n";
+}
+

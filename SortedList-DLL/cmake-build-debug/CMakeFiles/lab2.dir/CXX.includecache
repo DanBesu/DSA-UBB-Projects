@@ -1,0 +1,78 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../ListIterator.h
+SortedIndexedList.h
+../SortedIndexedList.h
+
+../SortedIndexedList.h
+
+D:/2/Faculty/sem 2/SDA/SortedList-DLL/App.cpp
+iostream
+-
+tests/ShortTest.h
+D:/2/Faculty/sem 2/SDA/SortedList-DLL/tests/ShortTest.h
+tests/ExtendedTest.h
+D:/2/Faculty/sem 2/SDA/SortedList-DLL/tests/ExtendedTest.h
+
+D:/2/Faculty/sem 2/SDA/SortedList-DLL/ListIterator.cpp
+ListIterator.h
+D:/2/Faculty/sem 2/SDA/SortedList-DLL/ListIterator.h
+SortedIndexedList.h
+D:/2/Faculty/sem 2/SDA/SortedList-DLL/SortedIndexedList.h
+iostream
+-
+
+D:/2/Faculty/sem 2/SDA/SortedList-DLL/ListIterator.h
+SortedIndexedList.h
+D:/2/Faculty/sem 2/SDA/SortedList-DLL/SortedIndexedList.h
+
+D:/2/Faculty/sem 2/SDA/SortedList-DLL/SortedIndexeList.cpp
+ListIterator.h
+D:/2/Faculty/sem 2/SDA/SortedList-DLL/ListIterator.h
+SortedIndexedList.h
+D:/2/Faculty/sem 2/SDA/SortedList-DLL/SortedIndexedList.h
+iostream
+-
+exception
+-
+
+D:/2/Faculty/sem 2/SDA/SortedList-DLL/SortedIndexedList.h
+
+D:/2/Faculty/sem 2/SDA/SortedList-DLL/tests/ExtendedTest.cpp
+ExtendedTest.h
+D:/2/Faculty/sem 2/SDA/SortedList-DLL/tests/ExtendedTest.h
+assert.h
+-
+exception
+-
+cstdlib
+-
+vector
+-
+iostream
+-
+ListIterator.h
+D:/2/Faculty/sem 2/SDA/SortedList-DLL/tests/ListIterator.h
+SortedIndexedList.h
+D:/2/Faculty/sem 2/SDA/SortedList-DLL/tests/SortedIndexedList.h
+
+D:/2/Faculty/sem 2/SDA/SortedList-DLL/tests/ExtendedTest.h
+
+D:/2/Faculty/sem 2/SDA/SortedList-DLL/tests/ShortTest.cpp
+assert.h
+-
+iostream
+-
+ListIterator.h
+D:/2/Faculty/sem 2/SDA/SortedList-DLL/tests/ListIterator.h
+SortedIndexedList.h
+D:/2/Faculty/sem 2/SDA/SortedList-DLL/tests/SortedIndexedList.h
+
+D:/2/Faculty/sem 2/SDA/SortedList-DLL/tests/ShortTest.h
+
